@@ -1,0 +1,11 @@
+begin
+
+  if TRectangle(Sender).Height = 40 then
+
+    TRectangle(Sender).AnimateFloat('Height',(TRectangle(Sender).ControlsCount +1) * 40,0.3, TAnimationType.In,TInterpolationType.Circular)
+
+  else
+
+   TRectangle(Sender).AnimateFloat('Height',40,0.3,TAnimationType.In,TInterpolationType.Circular)
+
+end;

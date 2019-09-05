@@ -1,0 +1,140 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 543
+  ClientWidth = 625
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Align = Left
+    Fill.Color = xFF070707
+    Size.Width = 265.000000000000000000
+    Size.Height = 543.000000000000000000
+    Size.PlatformDefault = False
+    Stroke.Kind = None
+    object Rectangle2: TRectangle
+      Align = Top
+      ClipChildren = True
+      Fill.Color = claWhite
+      Size.Width = 265.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = Rectangle2Click
+      object Rectangle3: TRectangle
+        Align = Top
+        Fill.Color = claBlack
+        HitTest = False
+        Size.Width = 265.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Text1: TText
+          Align = Client
+          HitTest = False
+          Size.Width = 265.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Menu 1'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+        end
+      end
+      object Rectangle4: TRectangle
+        Align = Top
+        Fill.Color = claWhite
+        HitTest = False
+        Position.Y = 80.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Text2: TText
+          Align = Client
+          HitTest = False
+          Size.Width = 265.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Sous Menu 2'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+      object Rectangle8: TRectangle
+        Align = Top
+        Fill.Color = claWhite
+        HitTest = False
+        Position.Y = 40.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Text5: TText
+          Align = Client
+          HitTest = False
+          Size.Width = 265.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Sous Menu 1'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+    object Rectangle5: TRectangle
+      Align = Top
+      ClipChildren = True
+      Fill.Color = claWhite
+      Position.Y = 40.000000000000000000
+      Size.Width = 265.000000000000000000
+      Size.Height = 40.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Kind = None
+      OnClick = Rectangle2Click
+      object Rectangle6: TRectangle
+        Align = Top
+        Fill.Color = claBlack
+        HitTest = False
+        Size.Width = 265.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Text3: TText
+          Align = Client
+          HitTest = False
+          Size.Width = 265.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Menu 2'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+          TextSettings.FontColor = claWhite
+        end
+      end
+      object Rectangle7: TRectangle
+        Align = Top
+        Fill.Color = claWhite
+        HitTest = False
+        Position.Y = 40.000000000000000000
+        Size.Width = 265.000000000000000000
+        Size.Height = 40.000000000000000000
+        Size.PlatformDefault = False
+        Stroke.Kind = None
+        object Text4: TText
+          Align = Client
+          HitTest = False
+          Size.Width = 265.000000000000000000
+          Size.Height = 40.000000000000000000
+          Size.PlatformDefault = False
+          Text = 'Sous Menu 1'
+          TextSettings.Font.Size = 20.000000000000000000
+          TextSettings.Font.StyleExt = {00070000000000000004000000}
+        end
+      end
+    end
+  end
+end
