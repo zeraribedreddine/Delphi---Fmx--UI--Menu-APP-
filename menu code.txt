@@ -1,5 +1,7 @@
+// Zerari Bedreddine -- 2019 -- Dev - 
+-----------------------------------------
 begin
-
+ 
   if TRectangle(Sender).Height = 40 then
 
     TRectangle(Sender).AnimateFloat('Height',(TRectangle(Sender).ControlsCount +1) * 40,0.3, TAnimationType.In,TInterpolationType.Circular)
